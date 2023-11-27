@@ -95,18 +95,18 @@ String name = "John";  // String
 
 ## Functions (Methods):
 
-    ```
-    // Method definition
-    int add(int a, int b) {
-        return a + b;
-    }
+```
+// Method definition
+int add(int a, int b) {
+    return a + b;
+}
 
-    // Method invocation
-    int result = add(5, 3);
-    System.out.println(result);
+// Method invocation
+int result = add(5, 3);
+System.out.println(result);
 
-    // Output: 8
-    ```
+// Output: 8
+```
 
 ##  Arrays:
 
