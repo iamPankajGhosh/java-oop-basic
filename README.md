@@ -59,3 +59,15 @@
     |Performance|Generally considered faster due to low-level control.|Slightly slower due to JVM abstraction.|
     |Use Cases| Systems programming, game development, performance-critical applications.| Enterprise applications, web development, mobile (Android) apps.|
     |Community and Ecosystem| Strong community with focus on performance.| Large community, especially in enterprise development.|
+
+- ## Hello Java Program
+
+    Here's a simple "Hello, Java!" program in java
+
+    ```
+    public class HelloWorld {
+        public static void main(String[] args) {
+            System.out.println("Hello, Java!");
+        }
+    }
+    ```
