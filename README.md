@@ -71,3 +71,20 @@
         }
     }
     ```
+
+- ## Internal How to set the path?
+
+    - ### Find the Path to Your Java Installation:
+        Locate the directory where Java is installed. This is typically something like C:\Program Files\Java\jdk<version> for the JDK or C:\Program Files\Java\jre<version> for the JRE.
+
+    - ### Copy the Path:
+        Copy the path to the "bin" directory inside the Java installation directory (e.g., C:\Program Files\Java\jdk-<version>\bin).
+
+    - ### Set the PATH Environment Variable:
+        - Right-click on "This PC" or "Computer" on your desktop or in File Explorer.
+        - Choose "Properties" -> "Advanced system settings" -> "Environment Variables."
+        - In the "System variables" section, select the "Path" variable and click "Edit."
+        - Add a new entry with the copied path to the "bin" directory.
+
+    - ### Verify the Setup:
+        Open a new Command Prompt and type java -version and javac -version to verify that the Java executable is recognized.
