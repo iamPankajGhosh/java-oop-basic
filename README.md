@@ -88,3 +88,13 @@
 
     - ### Verify the Setup:
         Open a new Command Prompt and type java -version and javac -version to verify that the Java executable is recognized.
+
+ - ## JDK, JRE, and JVM (Java Virtual Machine)
+    - ### JDK (Java Development Kit):
+        Used by developers for Java application development; includes compilers, debuggers, and the JRE.
+
+    - ### JRE (Java Runtime Environment):
+         Required by end-users to run Java applications; includes the JVM and libraries.
+
+    - ### JVM (Java Virtual Machine):
+        Executes Java bytecode, providing platform independence; manages memory and ensures security during runtime.
