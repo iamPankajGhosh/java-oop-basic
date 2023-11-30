@@ -123,3 +123,34 @@
     - ### Out of Memory (OOM):
         - Occurs when JVM can't allocate enough memory.
         - Causes include memory leaks and insufficient heap size.
+
+- ## Internal Details of JVM
+    - ### Class Loader Subsystem:
+        Loads classes dynamically into memory.
+
+    - ### Runtime Data Areas:
+        Method Area (Metaspace), Heap (Young and Old Generation), Stack, PC Registers.
+
+    - ### Execution Engine:     
+        Interpreter reads bytecode, JIT Compiler translates to native code.
+
+    - ### Garbage Collection:
+        Automatic memory management with Generational GC (Young and Old Generation).
+
+    - ### Execution Monitoring and Profiling:
+        Tools like jconsole and Java Flight Recorder for monitoring and profiling.
+        
+    - ### Native Interface:
+        JNI allows integration with native code (e.g., C/C++).
+
+    - ### Security:
+        Security Manager enforces policies, Access Controller controls resource access.
+    
+    - ### Thread Management:
+        JVM manages Java Threads for concurrent execution.
+
+    - ### Exception Handling:
+        Throwable class hierarchy for exception and error handling.
+
+    - ### Java Native Interface (JNI):
+        Allows interaction with applications written in other languages.
