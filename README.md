@@ -98,3 +98,28 @@
 
     - ### JVM (Java Virtual Machine):
         Executes Java bytecode, providing platform independence; manages memory and ensures security during runtime.
+
+- ## JVM Memory Management
+    - ### Heap Memory:
+        - Allocates and manages objects.
+        - Young Generation (Eden, Survivor spaces) and Old Generation.
+
+    - ### Stack Memory:
+        - Thread-specific memory for local  variables and method calls.
+
+    - ### Method Area (Metaspace):
+        - Stores class metadata, static variables, and method information.
+
+    - ### Garbage Collection:   
+        - Reclaims memory from unused objects.
+        - Young Generation, Old Generation, occasional Full GC.
+
+    - ### Automatic Memory Management:
+        - Garbage Collector identifies and reclaims memory automatically.
+    
+    - ### Tuning and Configuration:
+        - Developers can configure JVM memory settings and garbage collection parameters.
+
+    - ### Out of Memory (OOM):
+        - Occurs when JVM can't allocate enough memory.
+        - Causes include memory leaks and insufficient heap size.
