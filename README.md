@@ -196,3 +196,9 @@
 
   - ### Assignment Operators:
     = (assign), +=, -=, \*=, /=, %=.
+
+- ## Keywords:
+
+  Words that have a special meaning in the language and cannot be used as identifiers.
+
+  Examples: int, if, else, switch, for, while, break, continue, return, class, public, static, etc.
