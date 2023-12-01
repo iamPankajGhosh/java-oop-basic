@@ -177,4 +177,22 @@
     Allows interaction with applications written in other languages.
 
 - ## Unicode System:
+
   Unicode is a character encoding standard that represents most of the world's written languages. It assigns a unique code to each character regardless of the platform or program.
+
+- ## Operators:
+
+  - ### Arithmetic Operators:
+
+    "+" (addition), - (subtraction), \* (multiplication), / (division), % (modulo).
+
+  - ### Comparison Operators:
+
+    == (equal to), != (not equal to), < (less than), > (greater than), <= (less than or equal to), >= (greater than or equal to).
+
+  - ### Logical Operators:
+
+    && (logical AND), || (logical OR), ! (logical NOT).
+
+  - ### Assignment Operators:
+    = (assign), +=, -=, \*=, /=, %=.
