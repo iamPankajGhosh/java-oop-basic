@@ -202,3 +202,47 @@
   Words that have a special meaning in the language and cannot be used as identifiers.
 
   Examples: int, if, else, switch, for, while, break, continue, return, class, public, static, etc.
+
+- ## Control Statements:
+
+  If-Else:
+
+  ```
+    if (condition) {
+        // Code to execute if the condition is true
+    } else {
+        // Code to execute if the condition is false
+    }
+  ```
+
+  Switch:
+
+  ```
+  switch (expression) {
+    case value1:
+        // Code to execute if expression equals value1
+        break;
+    case value2:
+        // Code to execute if expression equals value2
+        break;
+    // ... more cases ...
+    default:
+        // Code to execute if expression doesn't match any case
+    }
+  ```
+
+  For Loop:
+
+  ```
+    for (initialization; condition; update) {
+        // Code to repeat as long as the condition is true
+    }
+  ```
+
+  While Loop:
+
+  ```
+     while (condition) {
+        // Code to repeat as long as the condition is true
+    }
+  ```
