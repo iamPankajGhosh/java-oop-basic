@@ -246,3 +246,43 @@
         // Code to repeat as long as the condition is true
     }
   ```
+
+## Class, Objects, and Types of Classes
+
+- ### Naming conventions of Java
+
+  - #### Package Names:
+    Should be in lowercase.
+    Follow a reversed domain name pattern, e.g., com.example.myproject.
+  - #### Class and Interface Names:
+    Should start with an uppercase letter.
+    Use camelCase, e.g., MyClass, MyInterface.
+  - #### Method Names:
+    Should start with a lowercase letter.
+    Use camelCase, e.g., calculateTotal, getUserInfo.
+  - #### Variable Names:
+    Should start with a lowercase letter.
+    Use camelCase, e.g., myVariable, totalAmount.
+  - #### Constants:
+    Should be in uppercase letters.
+    Use underscores to separate words, e.g., MAX_SIZE, PI.
+  - #### Enum Types:
+    Should follow the same conventions as class names.
+    Enum constants should be in uppercase letters, separated by underscores.
+  - #### Method Parameters:
+    Should start with a lowercase letter.
+    Use camelCase, e.g., calculateArea(int radius).
+  - #### Local Variables:
+    Should start with a lowercase letter.
+    Use camelCase, e.g., count, result.
+  - #### Boolean Variables and Methods:
+    Should start with "is," "has," or similar prefixes.
+    Use camelCase, e.g., isEnabled(), hasPermission().
+  - #### Acronyms and Abbreviations:
+    Acronyms should be treated as words, e.g., URL, XML.
+    Abbreviations should be avoided or used sparingly.
+  - #### Packages and Classes for Testing:
+    For test classes, it's common to use the same name as the class being tested followed by "Test," e.g., MyClassTest.
+  - #### File Names:
+    Should match the name of the public class or interface defined in the file.
+    Use camelCase for file names, e.g., MyClass.java.
