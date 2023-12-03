@@ -298,14 +298,16 @@
     Example: In a Car class, properties could include model, color, and year.
 
   - #### Methods (Behaviors):
+
     Define actions or operations that objects of the class can perform.
     Example: In a Car class, methods could include startEngine(), accelerate(), and brake().
 
-- #### Constructor:
+  - #### Constructor:
 
-  Special method used for initializing objects when they are created.
-  Often used to set initial values for object properties.
+    Special method used for initializing objects when they are created.
+    Often used to set initial values for object properties.
 
-- #### Encapsulation:
-  Bundling of data (attributes) and methods that operate on the data within a single unit (class).
-  Access modifiers control the visibility of members (public, private, protected).
+  - #### Encapsulation:
+
+    Bundling of data (attributes) and methods that operate on the data within a single unit (class).
+    Access modifiers control the visibility of members (public, private, protected).
