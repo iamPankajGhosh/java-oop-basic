@@ -286,3 +286,26 @@
   - #### File Names:
     Should match the name of the public class or interface defined in the file.
     Use camelCase for file names, e.g., MyClass.java.
+
+- ### Classes:
+
+  A class is a blueprint or a template for creating objects.
+  It defines the properties (attributes) and behaviors (methods) that the objects of the class will have.
+
+  - #### Properties (Attributes):
+
+    Represent characteristics or data associated with objects.
+    Example: In a Car class, properties could include model, color, and year.
+
+  - #### Methods (Behaviors):
+    Define actions or operations that objects of the class can perform.
+    Example: In a Car class, methods could include startEngine(), accelerate(), and brake().
+
+- #### Constructor:
+
+  Special method used for initializing objects when they are created.
+  Often used to set initial values for object properties.
+
+- #### Encapsulation:
+  Bundling of data (attributes) and methods that operate on the data within a single unit (class).
+  Access modifiers control the visibility of members (public, private, protected).
