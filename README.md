@@ -311,3 +311,25 @@
 
     Bundling of data (attributes) and methods that operate on the data within a single unit (class).
     Access modifiers control the visibility of members (public, private, protected).
+
+- ### Objects:
+
+  - #### Definition:
+
+    An object is an instance of a class.
+    It is a real-world entity that can be identified and manipulated in a program.
+
+  - #### Instantiation:
+
+    The process of creating an object from a class.
+    Example: Car myCar = new Car();
+
+  - #### Attributes:
+
+    The properties of an object hold specific values.
+
+    Example: myCar.model = "Toyota";
+
+  - #### Methods:
+    Objects can perform actions through methods.
+    Example: myCar.startEngine();
