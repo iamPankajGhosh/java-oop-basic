@@ -333,3 +333,89 @@
   - #### Methods:
     Objects can perform actions through methods.
     Example: myCar.startEngine();
+
+- ### Object declaration and initialization
+
+  - #### Declaration:
+
+    To declare an object, you specify the class type followed by the object name. This informs the compiler about the type of object you intend to create. For example:
+
+    ```
+    ClassName objectName;
+    ```
+
+  - #### Initialization:
+
+    To initialize an object, you use the new keyword along with the class constructor. The constructor is a special method within the class that is called when an object is created. It initializes the object and sets its initial state. Here's an example:
+
+    ```
+    ClassName objectName = new ClassName();
+    ```
+
+  - #### Class Definition:
+
+    ```
+    // Example class definition
+
+    public class Car {
+      // Class members (attributes, methods) go here
+    }
+    ```
+
+  - #### Declaration:
+
+    ```
+    // Declare a Car object named "myCar"
+
+    Car myCar;
+    ```
+
+  - #### Initialization:
+
+    ```
+      // Initialize the "myCar" object
+      myCar = new Car();
+    ```
+
+    Alternatively, you can combine declaration and initialization in a single line:
+
+    ```
+    // Declare and initialize the "myCar" object in one line
+
+    Car myCar = new Car();
+    ```
+
+    Now, the myCar object is an instance of the Car class, and you can access its attributes and methods as needed.
+
+    #### Example with Attributes:
+
+    ```
+    public class Car {
+      String model;
+      String color;
+
+      // Constructor
+      public Car(String model, String color) {
+        this.model = model;
+        this.color = color;
+      }
+
+      // Method
+      public void displayInfo() {
+        System.out.println("Model: " + model);
+        System.out.println("Color: " + color);
+      }
+    }
+
+    public class Main {
+      public static void main(String[] args) {
+        // Declare and initialize a Car object
+        Car myCar = new Car("Toyota", "Blue");
+
+        // Access the attributes and methods of the object
+        myCar.displayInfo();
+      }
+    }
+    ```
+
+    In this example, the Car class has attributes model and color, a constructor to initialize these attributes, and a method displayInfo to print information about the car. The main method in the Main class declares and initializes a Car object named myCar and calls its displayInfo method.
